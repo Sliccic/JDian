@@ -18,7 +18,7 @@ const RESULT = {
 const RESULT_WT = {
   vip: {
     enable: true,
-    svip_expired_at: 1882066669.9452950954
+    svip_expired_at: 32503512276.9452950954
   }
 }
 const RIGHTS = { 
