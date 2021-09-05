@@ -3,14 +3,8 @@
 # 样例可参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server-complete.txt
 
 
-trojan://f2e94610-0d93-48ad-92fa-bbaf6e998cbc@kr3.uuv2.co.uk:443?sni=kr3.uuv2.co.uk#%e9%9f%a9%e5%9b%bd+tg%40freebaipiao
-
-ss://YWVzLTI1Ni1nY206dmNGSU5BUWxncVpaQDc4LjQ3LjIxOS44NjozNTEzOQ==#%e5%be%b7%e5%9b%bd+tg%40freebaipiao
-
 ss://YWVzLTI1Ni1nY206V0JMQWJONkF3dFY1YXZCeDczaEZSTEIzQDE5OC4xNDcuMjIuODc6MzUyMDA=#%e7%be%8e%e5%9b%bd+tg%40freebaipiao
 
 vmess://eyJhZGQiOiJlbHMuamtsaXN0LmdhIiwiYWlkIjoiMSIsImhvc3QiOiIiLCJpZCI6IjVjZjJlY2IwLTkxNjUtNDc2MC04ZThhLTM4MWNlNTQ3YTZlZiIsIm5ldCI6IndzIiwicGF0aCI6IiIsInBvcnQiOiIyMDk1IiwicHMiOiLmtYHph4/nq5kt5L+E572X5pavLeWFjea1geacuuWcunVzYS5qa2xpc3QuZ2EiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
-
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIEBTaGFyZUNlbnRyZSIsImFkZCI6IjEyMC4yMzYuMTk4LjE2MiIsInBvcnQiOjE0NDMsInR5cGUiOiJub25lIiwiaWQiOiIwMWUyNmIwMC1kZjIwLTM1NzQtOWIyZC01NDE2Mjk3NWM5MDkiLCJhaWQiOjAsIm5ldCI6IndzIiwicGF0aCI6Ii9jbS9nejEvaGszIiwiaG9zdCI6IjEyMC4yMzYuMTk4LjE2MiIsInRscyI6InRscyJ9
 
 shadowsocks=42.157.196.104:10897, method=aes-256-cfb, password=vCmp8ALih6, ssr-protocol=auth_aes128_md5, ssr-protocol-param=192771:ALMd5cT0tP, obfs=tls1.2_ticket_auth, obfs-host=ajax.microsoft.com, fast-open=false, udp-relay=false, tag=台湾
