@@ -7,4 +7,6 @@ ss://YWVzLTI1Ni1nY206V0JMQWJONkF3dFY1YXZCeDczaEZSTEIzQDE5OC4xNDcuMjIuODc6MzUyMDA
 
 vmess://eyJhZGQiOiJlbHMuamtsaXN0LmdhIiwiYWlkIjoiMSIsImhvc3QiOiIiLCJpZCI6IjVjZjJlY2IwLTkxNjUtNDc2MC04ZThhLTM4MWNlNTQ3YTZlZiIsIm5ldCI6IndzIiwicGF0aCI6IiIsInBvcnQiOiIyMDk1IiwicHMiOiLmtYHph4/nq5kt5L+E572X5pavLeWFjea1geacuuWcunVzYS5qa2xpc3QuZ2EiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
 
-shadowsocks=42.157.196.104:10897, method=aes-256-cfb, password=vCmp8ALih6, ssr-protocol=auth_aes128_md5, ssr-protocol-param=192771:ALMd5cT0tP, obfs=tls1.2_ticket_auth, obfs-host=ajax.microsoft.com, fast-open=false, udp-relay=false, tag=台湾
+https://zhizhi.bike/api/v1/client/subscribe?token=4427efcmr7aabc3898504a9f58d6f594
+
+https://holiport.holiganfan.com/api/v1/client/subscribe?token=d2a98a5c691531c1512341294a14c028
