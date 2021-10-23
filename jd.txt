@@ -10,3 +10,5 @@ vmess://eyJhZGQiOiJlbHMuamtsaXN0LmdhIiwiYWlkIjoiMSIsImhvc3QiOiIiLCJpZCI6IjVjZjJl
 https://zhizhi.bike/api/v1/client/subscribe?token=4427efcmr7aabc3898504a9f58d6f594
 
 https://holiport.holiganfan.com/api/v1/client/subscribe?token=d2a98a5c691531c1512341294a14c028
+
+https://www.vivy.cf/s/www.vivy.cf_2c8f2632655cb95b738e7bc2e752a90d
