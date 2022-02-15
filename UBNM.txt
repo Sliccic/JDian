@@ -19,3 +19,4 @@ shadowsocks=MUSIC.DESPERADOJ.COM:30003, method=aes-128-gcm, password=desperadoj.
 http=101.132.79.113:23333, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 16
 http=MUSIC.GRIOUGES.CN:39000, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 17
 http=SALVAN.ICU:19980, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 18
+http=music.lolico.me:39000, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 19
