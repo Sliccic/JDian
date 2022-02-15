@@ -1,18 +1,21 @@
 #推荐用配置整套用，省去自己折腾时间，配置简洁干净上手难度为0
 #https://github.com/O7Y0/Profiles/blob/master/O7Y0-Quantumult%20X.conf
 proxies:
-  - {name: 🎧 TG@REBIRTHOKAY, server: 127.0.0.1, port: 443, type: http, tls: false, skip-cert-verify: false}
   - {name: 🎧 网易音乐 1, server: LOLICO.ME, port: 443, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 2, server: AIMER.ONE, port: 23333, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 3, server: SALVAN.ICU, port: 19980, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 4, server: 34.92.129.82, port: 2021, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 5, server: 1.116.214.16, port: 19980, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 6, server: 43.128.37.178, port: 2021, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 7, server: 106.52.127.72, port: 19951, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 8, server: 101.132.79.113, port: 23333, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 9, server: MUSIC.LOLICO.ME, port: 39000, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 10, server: MUSIC.GRIOUGES.CN, port: 39000, type: http, tls: false, skip-cert-verify: false}
-  - {name: 🎧 网易音乐 11, server: XBMMW.XYZ, port: 5691, type: ss, cipher: aes-128-gcm, password: QQ3203434182}
-  - {name: 🎧 网易音乐 12, server: PROXY.PLUSMEDIA.SITE, port: 58081, type: ss, cipher: rc4-md5, password: T5ckndbLSXHQ}
-  - {name: 🎧 网易音乐 13, server: MUSIC.DESPERADOJ.COM, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 🎧 网易音乐 14, server: MUSIC.DESPERADOJ.COM, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
+  - {name: 🎧 网易音乐 2, server: SALVAN.ICU, port: 19980, type: http, tls: false, skip-cert-verify: false}
+  - {name: 🎧 网易音乐 3, server: 101.132.79.113, port: 23333, type: http, tls: false, skip-cert-verify: false}
+  - {name: 🎧 网易音乐 4, server: MUSIC.LOLICO.ME, port: 39000, type: http, tls: false, skip-cert-verify: false}
+  - {name: 🎧 网易音乐 5, server: MUSIC.GRIOUGES.CN, port: 39000, type: http, tls: false, skip-cert-verify: false}
+  - {name: 🎧 网易音乐 6, server: MUSIC.DESPERADOJ.COM, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
+  - {name: 🎧 网易音乐 7, server: MUSIC.DESPERADOJ.COM, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
+http=106.52.127.72:19951, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 8
+http=lolico.me:443, over-tls=false, fast-open=false, udp-relay=false,tag= 🎧 网易音乐 9
+http=music.lolico.me:39000, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 10
+http=music.griouges.cn:39000, over-tls=false, fast-open=false, udp-relay=false,tag= 🎧 网易音乐 11
+shadowsocks=music.desperadoj.com:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_emx2, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 12
+http=music.lolico.me:39000, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 13
+shadowsocks=MUSIC.DESPERADOJ.COM:30001, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 14
+shadowsocks=MUSIC.DESPERADOJ.COM:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 15
+http=101.132.79.113:23333, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 16
+http=MUSIC.GRIOUGES.CN:39000, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 17
+http=SALVAN.ICU:19980, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 18
