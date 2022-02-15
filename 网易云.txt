@@ -7,6 +7,22 @@
 
 ;shadowsocks=example.com:80, method=chacha20, password=pwd, obfs=http, obfs-host=bing.com, obfs-uri=/resource/file, fast-open=false, udp-relay=false, server_check_url=http://www.apple.com/generate_204, tag=ss-01
 
-http=music.lolico.me:39000, fast-open=false, udp-relay=false, tag=解锁网易云节点1
-http=block4music.poetyin.me:39000, fast-open=false, udp-relay=false, tag=解锁网易云节点2
-http=block4music.poetyin.me:39000, fast-open=false, udp-relay=false, tag=解锁网易云节点3
+http=LOLICO.ME:443, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 1
+http=SALVAN.ICU:19980, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 2
+http=101.132.79.113:23333, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 3
+http=MUSIC.LOLICO.ME:39000, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 4
+http=MUSIC.GRIOUGES.CN:39000, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 5
+shadowsocks=MUSIC.DESPERADOJ.COM:30001, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 6
+shadowsocks=MUSIC.DESPERADOJ.COM:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 7
+http=106.52.127.72:19951, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 8
+http=lolico.me:443, over-tls=false, fast-open=false, udp-relay=false,tag= 🎧 网易音乐 9
+http=music.lolico.me:39000, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 10
+http=music.griouges.cn:39000, over-tls=false, fast-open=false, udp-relay=false,tag= 🎧 网易音乐 11
+shadowsocks=music.desperadoj.com:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_emx2, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 12
+http=music.lolico.me:39000, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 13
+shadowsocks=MUSIC.DESPERADOJ.COM:30001, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 14
+shadowsocks=MUSIC.DESPERADOJ.COM:30003, method=aes-128-gcm, password=desperadoj.com_free_proxy_d39m, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 15
+http=101.132.79.113:23333, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 16
+http=MUSIC.GRIOUGES.CN:39000, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 17
+http=SALVAN.ICU:19980, over-tls=false, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 18
+http=music.lolico.me:39000, fast-open=false, udp-relay=false, tag= 🎧 网易音乐 19
