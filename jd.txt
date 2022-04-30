@@ -2,7 +2,6 @@
 # 片段文件将保存在 Quantumult X 目录下的 Profiles 子目录中。
 # 样例可参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server-complete.
 
-http=81.71.136.214:10010, over-tls=false, fast-open=false, udp-relay=true, tag=原神私服
 
 vmess://eyJhZGQiOiJoay50em1nanN6cC50ayIsImFpZCI6IjAiLCJob3N0IjoiIiwiaWQiOiIwY2JjNTBlMy0yZTMxLTQ4YjEtY2E5My0xNTYwNGRlMTgzZjYiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjE2MDAzIiwicHMiOiLwn4et8J+HsEhLwrkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
