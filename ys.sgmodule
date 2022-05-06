@@ -3,35 +3,35 @@
 
 [URL Rewrite]
 # Handle MITM on client-side, discarding mitmdump.
-hk4e-api-os-static.mihoyo.com ww.tzmgjszp.tk header
-hk4e-sdk-os.mihoyo.com ww.tzmgjszp.tk header
-dispatchosglobal.yuanshen.com ww.tzmgjszp.tk header
-osusadispatch.yuanshen.com ww.tzmgjszp.tk header
-account.mihoyo.com ww.tzmgjszp.tk header
-log-upload-os.mihoyo.com ww.tzmgjszp.tk header
-dispatchcntest.yuanshen.com ww.tzmgjszp.tk header
-devlog-upload.mihoyo.com ww.tzmgjszp.tk header
-webstatic.mihoyo.com ww.tzmgjszp.tk header
-log-upload.mihoyo.com ww.tzmgjszp.tk header
-hk4e-sdk.mihoyo.com ww.tzmgjszp.tk header
-api-beta-sdk.mihoyo.com ww.tzmgjszp.tk header
-api-beta-sdk-os.mihoyo.com ww.tzmgjszp.tk header
-cnbeta01dispatch.yuanshen.com ww.tzmgjszp.tk header
-dispatchcnglobal.yuanshen.com ww.tzmgjszp.tk header
-cnbeta02dispatch.yuanshen.com ww.tzmgjszp.tk header
-sdk-os-static.mihoyo.com ww.tzmgjszp.tk header
-webstatic-sea.mihoyo.com ww.tzmgjszp.tk header
-hk4e-sdk-os-static.hoyoverse.com ww.tzmgjszp.tk header
-webstatic-sea.hoyoverse.com ww.tzmgjszp.tk header
-sdk-os-static.hoyoverse.com ww.tzmgjszp.tk header
-api-account-os.hoyoverse.com ww.tzmgjszp.tk header
-hk4e-sdk-os.hoyoverse.com ww.tzmgjszp.tk header
-overseauspider.yuanshen.com ww.tzmgjszp.tk header
-gameapi-account.mihoyo.com ww.tzmgjszp.tk header
-minor-api.mihoyo.com ww.tzmgjszp.tk header
-hk4e-sdk-os.hoyoverse.com ww.tzmgjszp.tk header
-uspider.yuanshen.com ww.tzmgjszp.tk header
-sdk-static.mihoyo.com ww.tzmgjszp.tk header
+hk4e-api-os-static.mihoyo.com 124.221.204.180 header
+hk4e-sdk-os.mihoyo.com 124.221.204.180 header
+dispatchosglobal.yuanshen.com 124.221.204.180 header
+osusadispatch.yuanshen.com 124.221.204.180 header
+account.mihoyo.com 124.221.204.180 header
+log-upload-os.mihoyo.com 124.221.204.180 header
+dispatchcntest.yuanshen.com 124.221.204.180 header
+devlog-upload.mihoyo.com 124.221.204.180 header
+webstatic.mihoyo.com 124.221.204.180 header
+log-upload.mihoyo.com 124.221.204.180 header
+hk4e-sdk.mihoyo.com 124.221.204.180 header
+api-beta-sdk.mihoyo.com 124.221.204.180 header
+api-beta-sdk-os.mihoyo.com 124.221.204.180 header
+cnbeta01dispatch.yuanshen.com 124.221.204.180 header
+dispatchcnglobal.yuanshen.com 124.221.204.180 header
+cnbeta02dispatch.yuanshen.com 124.221.204.180 header
+sdk-os-static.mihoyo.com 124.221.204.180 header
+webstatic-sea.mihoyo.com 124.221.204.180 header
+hk4e-sdk-os-static.hoyoverse.com 124.221.204.180 header
+webstatic-sea.hoyoverse.com 124.221.204.180 header
+sdk-os-static.hoyoverse.com 124.221.204.180 header
+api-account-os.hoyoverse.com 124.221.204.180 header
+hk4e-sdk-os.hoyoverse.com 124.221.204.180 header
+overseauspider.yuanshen.com 124.221.204.180 header
+gameapi-account.mihoyo.com 124.221.204.180 header
+minor-api.mihoyo.com 124.221.204.180 header
+hk4e-sdk-os.hoyoverse.com 124.221.204.180 header
+uspider.yuanshen.com 124.221.204.180 header
+sdk-static.mihoyo.com 124.221.204.180 header
 
 [MITM]
-hostname = %APPEND% api-os-takumi.mihoyo.com,hk4e-api-os-static.mihoyo.com,hk4e-sdk-os.mihoyo.com,dispatchosglobal.yuanshen.com,osusadispatch.yuanshen.com,account.mihoyo.com,log-upload-os.mihoyo.com,dispatchcntest.yuanshen.com,devlog-upload.mihoyo.com,webstatic.mihoyo.com,log-upload.mihoyo.com,hk4e-sdk.mihoyo.com,api-beta-sdk.mihoyo.com,api-beta-sdk-os.mihoyo.com,cnbeta01dispatch.yuanshen.com,dispatchcnglobal.yuanshen.com,cnbeta02dispatch.yuanshen.com,sdk-os-static.mihoyo.com,webstatic-sea.mihoyo.com,hk4e-sdk-os-static.hoyoverse.com,webstatic-sea.hoyoverse.com,sdk-os-static.hoyoverse.com,api-account-os.hoyoverse.com,hk4e-sdk-os.hoyoverse.com,overseauspider.yuanshen.com,gameapi-account.mihoyo.com,minor-api.mihoyo.com,public-data-api.mihoyo.com,uspider.yuanshen.com,sdk-static.mihoyo.com
+hostname = %APPEND% api-os-takumi.mihoyo.com,hk4e-api-os-static.mihoyo.com,hk4e-sdk-os.mihoyo.com,dispatchosglobal.yuanshen.com,osusadispatch.yuanshen.com,account.mihoyo.com,log-upload-os.mihoyo.com,dispatchcntest.yuanshen.com,devlog-upload.mihoyo.com,webstatic.mihoyo.com,log-upload.mihoyo.com,hk4e-sdk.mihoyo.com,api-beta-sdk.mihoyo.com,api-beta-sdk-os.mihoyo.com,cnbeta01dispatch.yuanshen.com,dispatchcnglobal.yuanshen.com,cnbeta02dispatch.yuanshen.com,sdk-os-static.mihoyo.com,webstatic-sea.mihoyo.com,hk4e-sdk-os-static.hoyoverse.com,webstatic-sea.hoyoverse.com,sdk-os-static.hoyoverse.com,api-account-os.hoyoverse.com,hk4e-sdk-os.hoyoverse.com,overseauspider.yuanshen.com,gameapi-account.mihoyo.com,minor-api.mihoyo.com,public-data-api.mihoyo.com,uspider.yuanshen.com,sdk-static.mihoyo.com,124.221.204.180
