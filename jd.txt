@@ -2,7 +2,7 @@
 # 片段文件将保存在 Quantumult X 目录下的 Profiles 子目录中。
 # 样例可参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server-complete.
 
-http=www.yuanshen.ml:54321, over-tls=false, fast-open=false, udp-relay=true, tag=原神
+http=www.yuanshen.ml:54321, over-tls=true, fast-open=false, udp-relay=true, tag=原神
 
 vmess://eyJhZGQiOiIyMC4xODcuMTI3LjEyMCIsImFpZCI6IjAiLCJob3N0IjoiIiwiaWQiOiIwY2JjNTBlMy0yZTMxLTQ4YjEtY2E5My0xNTYwNGRlMTgzZjYiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjUyMTI1IiwicHMiOiLwn4et8J+HsEhLwrkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 
