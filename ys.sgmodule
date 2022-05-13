@@ -1,38 +1,35 @@
 
 
 [URL Rewrite]
-api-os-takumi.mihoyo.com:443 307 www.yuanshen.ml:4433
-hk4e-api-os-static.mihoyo.com:443 307 www.yuanshen.ml:4433
-hk4e-sdk-os.mihoyo.com:443 307 www.yuanshen.ml:4433
-dispatchosglobal.yuanshen.com:443 307 www.yuanshen.ml:4433
-osusadispatch.yuanshen.com:443 307 www.yuanshen.ml:4433
-account.mihoyo.com:443 307 www.yuanshen.ml:4433
-log-upload-os.mihoyo.com:443 307 www.yuanshen.ml:4433
-dispatchcntest.yuanshen.com:443 307 www.yuanshen.ml:4433
-devlog-upload.mihoyo.com:443 307 www.yuanshen.ml:4433
-webstatic.mihoyo.com:443 307 www.yuanshen.ml:4433
-log-upload.mihoyo.com:443 307 www.yuanshen.ml:4433
-hk4e-sdk.mihoyo.com:443 307 www.yuanshen.ml:4433
-api-beta-sdk.mihoyo.com:443 307 www.yuanshen.ml:4433
-api-beta-sdk-os.mihoyo.com:443 307 www.yuanshen.ml:4433
-cnbeta01dispatch.yuanshen.com:443 307 www.yuanshen.ml:4433
-dispatchcnglobal.yuanshen.com:443 307 www.yuanshen.ml:4433
-cnbeta02dispatch.yuanshen.com:443 307 www.yuanshen.ml:4433
-sdk-os-static.mihoyo.com:443 307 www.yuanshen.ml:4433
-webstatic-sea.mihoyo.com:443 307 www.yuanshen.ml:4433
-webstatic-sea.hoyoverse.com:443 307 www.yuanshen.ml:4433
-hk4e-sdk-os-static.hoyoverse.com:443 307 www.yuanshen.ml:4433
-sdk-os-static.hoyoverse.com:443 307 www.yuanshen.ml:4433
-api-account-os.hoyoverse.com:443 307 www.yuanshen.ml:4433
-hk4e-sdk-os.hoyoverse.com:443 307 www.yuanshen.ml:4433
-overseauspider.yuanshen.com:443 307 www.yuanshen.ml:4433
-gameapi-account.mihoyo.com:443 307 www.yuanshen.ml:4433
-minor-api.mihoyo.com:443 307 www.yuanshen.ml:4433
-public-data-api.mihoyo.com:443 307 www.yuanshen.ml:4433
-uspider.yuanshen.com:443 307 www.yuanshen.ml:4433
-sdk-static.mihoyo.com:443 307 www.yuanshen.ml:4433
-abtest-api-data-sg.hoyoverse.com:443 307 www.yuanshen.ml:4433
-log-upload-os.hoyoverse.com:443 307 www.yuanshen.ml:4433
+hk4e-api-os-static.mihoyo.com www.yuanshen.ml header
+hk4e-sdk-os.mihoyo.com www.yuanshen.ml header
+dispatchosglobal.yuanshen.com www.yuanshen.ml header
+osusadispatch.yuanshen.com www.yuanshen.ml header
+account.mihoyo.com www.yuanshen.ml header
+log-upload-os.mihoyo.com www.yuanshen.ml header
+dispatchcntest.yuanshen.com www.yuanshen.ml header
+devlog-upload.mihoyo.com www.yuanshen.ml header
+webstatic.mihoyo.com www.yuanshen.ml header
+log-upload.mihoyo.com www.yuanshen.ml header
+hk4e-sdk.mihoyo.com www.yuanshen.ml header
+api-beta-sdk.mihoyo.com www.yuanshen.ml header
+api-beta-sdk-os.mihoyo.com www.yuanshen.ml header
+cnbeta01dispatch.yuanshen.com www.yuanshen.ml header
+dispatchcnglobal.yuanshen.com www.yuanshen.ml header
+cnbeta02dispatch.yuanshen.com www.yuanshen.ml header
+sdk-os-static.mihoyo.com www.yuanshen.ml header
+webstatic-sea.mihoyo.com www.yuanshen.ml header
+hk4e-sdk-os-static.hoyoverse.com www.yuanshen.ml header
+webstatic-sea.hoyoverse.com www.yuanshen.ml header
+sdk-os-static.hoyoverse.com www.yuanshen.ml header
+api-account-os.hoyoverse.com www.yuanshen.ml header
+hk4e-sdk-os.hoyoverse.com www.yuanshen.ml header
+overseauspider.yuanshen.com www.yuanshen.ml header
+gameapi-account.mihoyo.com www.yuanshen.ml header
+minor-api.mihoyo.com www.yuanshen.ml header
+hk4e-sdk-os.hoyoverse.com www.yuanshen.ml header
+uspider.yuanshen.com www.yuanshen.ml header
+sdk-static.mihoyo.com www.yuanshen.ml header
 
 [MITM]
 hostname = %APPEND% api-os-takumi.mihoyo.com,hk4e-api-os-static.mihoyo.com,hk4e-sdk-os.mihoyo.com,dispatchosglobal.yuanshen.com,osusadispatch.yuanshen.com,account.mihoyo.com,log-upload-os.mihoyo.com,dispatchcntest.yuanshen.com,devlog-upload.mihoyo.com,webstatic.mihoyo.com,log-upload.mihoyo.com,hk4e-sdk.mihoyo.com,api-beta-sdk.mihoyo.com,api-beta-sdk-os.mihoyo.com,cnbeta01dispatch.yuanshen.com,dispatchcnglobal.yuanshen.com,cnbeta02dispatch.yuanshen.com,sdk-os-static.mihoyo.com,webstatic-sea.mihoyo.com,hk4e-sdk-os-static.hoyoverse.com,webstatic-sea.hoyoverse.com,sdk-os-static.hoyoverse.com,api-account-os.hoyoverse.com,hk4e-sdk-os.hoyoverse.com,overseauspider.yuanshen.com,gameapi-account.mihoyo.com,minor-api.mihoyo.com,public-data-api.mihoyo.com,uspider.yuanshen.com,sdk-static.mihoyo.com,124.221.204.180
