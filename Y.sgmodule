@@ -1,0 +1,33 @@
+[URL Rewrite]
+hk4e-api-os-static.mihoyo.com:443 www.yuanshen.ml:4433 header
+hk4e-sdk-os.mihoyo.com:443 www.yuanshen.ml:4433 header
+dispatchosglobal.yuanshen.com:443 www.yuanshen.ml:4433 header
+osusadispatch.yuanshen.com:443 www.yuanshen.ml:4433 header
+account.mihoyo.com:443 www.yuanshen.ml:4433 header
+log-upload-os.mihoyo.com:443 www.yuanshen.ml:4433 header
+dispatchcntest.yuanshen.com:443 www.yuanshen.ml:4433 header
+devlog-upload.mihoyo.com:443 www.yuanshen.ml:4433 header
+webstatic.mihoyo.com:443 www.yuanshen.ml:4433 header
+log-upload.mihoyo.com:443 www.yuanshen.ml:4433 header
+hk4e-sdk.mihoyo.com:443 www.yuanshen.ml:4433 header
+api-beta-sdk.mihoyo.com:443 www.yuanshen.ml:4433 header
+api-beta-sdk-os.mihoyo.com:443 www.yuanshen.ml:4433 header
+cnbeta01dispatch.yuanshen.com:443 www.yuanshen.ml:4433 header
+dispatchcnglobal.yuanshen.com:443 www.yuanshen.ml:4433 header
+cnbeta02dispatch.yuanshen.com:443 www.yuanshen.ml:4433 header
+sdk-os-static.mihoyo.com:443 www.yuanshen.ml:4433 header
+webstatic-sea.mihoyo.com:443 www.yuanshen.ml:4433 header
+hk4e-sdk-os-static.hoyoverse.com:443 www.yuanshen.ml:4433 header
+webstatic-sea.hoyoverse.com:443 www.yuanshen.ml:4433 header
+sdk-os-static.hoyoverse.com:443 www.yuanshen.ml:4433 header
+api-account-os.hoyoverse.com:443 www.yuanshen.ml:4433 header
+hk4e-sdk-os.hoyoverse.com:443 www.yuanshen.ml:4433 header
+overseauspider.yuanshen.com:443 www.yuanshen.ml:4433 header
+gameapi-account.mihoyo.com:443 www.yuanshen.ml:4433 header
+minor-api.mihoyo.com:443 www.yuanshen.ml:4433 header
+hk4e-sdk-os.hoyoverse.com:443 www.yuanshen.ml:4433 header
+uspider.yuanshen.com:443 www.yuanshen.ml:4433 header
+sdk-static.mihoyo.com:443 www.yuanshen.ml:4433 header
+
+[MITM]
+hostname = %APPEND% api-os-takumi.mihoyo.com:443,hk4e-api-os-static.mihoyo.com:443,hk4e-sdk-os.mihoyo.com:443,dispatchosglobal.yuanshen.com:443,osusadispatch.yuanshen.com:443,account.mihoyo.com:443,log-upload-os.mihoyo.com:443,dispatchcntest.yuanshen.com:443,devlog-upload.mihoyo.com:443,webstatic.mihoyo.com:443,log-upload.mihoyo.com:443,hk4e-sdk.mihoyo.com:443,api-beta-sdk.mihoyo.com:443,api-beta-sdk-os.mihoyo.com:443,cnbeta01dispatch.yuanshen.com:443,dispatchcnglobal.yuanshen.com:443,cnbeta02dispatch.yuanshen.com:443,sdk-os-static.mihoyo.com:443,webstatic-sea.mihoyo.com:443,hk4e-sdk-os-static.hoyoverse.com:443,webstatic-sea.hoyoverse.com:443,sdk-os-static.hoyoverse.com:443,api-account-os.hoyoverse.com:443,hk4e-sdk-os.hoyoverse.com:443,overseauspider.yuanshen.com:443,gameapi-account.mihoyo.com:443,minor-api.mihoyo.com:443,public-data-api.mihoyo.com:443,uspider.yuanshen.com:443,sdk-static.mihoyo.com:443,www.yuanshen.ml:4433
