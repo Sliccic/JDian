@@ -7,4 +7,6 @@
 
 ;shadowsocks=example.com:80, method=chacha20, password=pwd, obfs=http, obfs-host=bing.com, obfs-uri=/resource/file, fast-open=false, udp-relay=false, server_check_url=http://www.apple.com/generate_204, tag=ss-01
 
-http=20.187.127.120:70, fast-open=false, udp-relay=false, tag=🎧 网易云音乐解锁
+http=20.187.127.120:70, fast-open=false, udp-relay=false, tag=🎧 网易云音乐解锁1
+
+http=106.13.5.214:70, fast-open=false, udp-relay=false, tag=🎧 网易云音乐解锁2
