@@ -13,8 +13,8 @@
 [rewrite_local]
 
 # ～ filebox解鎖會員權限（2022-02-18）@ddgksf2013
-^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/Sliccic/JDian/main/fb.js?token=GHSAT0AAAAAABQJYBFE7XULTRIH3O24IXKOYX3G7EQ
-^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/Sliccic/JDian/main/fb.js?token=GHSAT0AAAAAABQJYBFE7XULTRIH3O24IXKOYX3G7EQ
+^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-echo-response https://raw.githubusercontent.com/Sliccic/JDian/main/fb.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-echo-response https://raw.githubusercontent.com/Sliccic/JDian/main/fb.js
 
 [mitm] 
 
