@@ -7,7 +7,7 @@
 
 ;shadowsocks=example.com:80, method=chacha20, password=pwd, obfs=http, obfs-host=bing.com, obfs-uri=/resource/file, fast-open=false, udp-relay=false, server_check_url=http://www.apple.com/generate_204, tag=ss-01
 
-http=20.205.34.114:4000, fast-open=false, udp-relay=false, tag=🎧 网易云音乐解锁1
+http=20.205.34.114:4002, fast-open=false, udp-relay=false, tag=🎧 网易云音乐解锁1
 
 shadowsocks=101.132.192.212:30001, method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=🎧 网易云音乐解锁2
 
