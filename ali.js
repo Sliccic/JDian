@@ -22,7 +22,7 @@
 
 [mitm]
 
-hostname = *example.com
+hostname = *.example.com
 
 
 FileBall操作步骤:
