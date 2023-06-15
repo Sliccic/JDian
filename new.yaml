@@ -1,0 +1,1236 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: "", server: 45.78.21.215, port: 10075, type: vmess, uuid: 55c9e45c-7b8a-45fb-fe59-3031492283d1, alterId: 0, cipher: auto, tls: false}
+  - {name: fun2, server: fun.varkvul.top, port: 1234, type: vmess, uuid: 4c6829ed-de7c-404c-967c-5be4d5b1a7f2, alterId: 0, cipher: auto, tls: true}
+  - {name: VMESSNEW, server: marco.marcozoe.xyz, port: 40598, type: vmess, uuid: 9cc848c9-6a14-4fd8-c8ab-1252ae1934aa, alterId: 0, cipher: auto, tls: true, network: grpc, servername: marco.marcozoe.xyz, grpc-opts: {grpc-service-name: ""}}
+  - {name: MobileNew, server: 212.50.246.94, port: 42538, type: vmess, uuid: 42aaff9a-7199-42df-fb1a-05b89d76e1e8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 jp01, server: jp01.yuailu523.xyz, port: 443, type: vmess, uuid: 4d13387a-3795-47fe-be73-5832b761acd0, alterId: 0, cipher: auto, tls: true}
+  - {name: 1, server: 38.60.199.126, port: 38328, type: vmess, uuid: 7cc5c5cf-0f6a-4a90-dbbf-756c8a1659d2, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 38.60.199.126}}
+  - {name: tt, server: 129.226.93.238, port: 443, type: vmess, uuid: a5426973-6c33-484a-a87b-53deedf65696, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 129.226.93.238}}
+  - {name: y-vmess, server: 129.226.84.133, port: 37787, type: vmess, uuid: 9c0e8629-e25e-4e04-fb8b-64e81d3a60cc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 singapore vmess, server: singa.zhsh006.top, port: 443, type: vmess, uuid: 161f13ab-4b67-42e5-efc9-c590fe3aec59, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sssrr, ws-headers: {Host: singa.zhsh006.top}}
+  - {name: 🇸🇬 新加坡2, server: 150.109.24.15, port: 27917, type: vmess, uuid: 975024ba-72fb-4508-8978-7ef413b0b3a4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 xjp-01, server: 118.26.111.168, port: 55169, type: vmess, uuid: a23ccc9f-a922-4e60-d2c5-0303d31e2aa4, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 118.26.111.168}}
+  - {name: 🇸🇬 新加坡v3, server: www.waihimchu.one, port: 44049, type: vmess, uuid: f3130681-8a79-4a12-8966-3bbb1e91f711, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇸🇬 新加坡22v, server: xjp22.zhengwang.art, port: 8443, type: vmess, uuid: 3dfa314f-fb4e-4e82-80b6-50a1ae329c1f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xjp22.zhengwang.art}}
+  - {name: 🇵🇭 青---菲律宾, server: aji.tpoc.top, port: 52768, type: vmess, uuid: ff71adb9-2fc4-4c14-8ce7-6d2e1e6a7bc7, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇵🇭 f175菲律宾  7.2, server: 38.54.87.61, port: 34565, type: vmess, uuid: 81b89336-46e7-445d-af5b-5cfc8fecebaf, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇭 f142菲律宾  6.11, server: 38.54.86.224, port: 36756, type: vmess, uuid: ae1a3372-6974-4e42-debb-0b56f300dd3a, alterId: 0, cipher: auto, tls: false}
+  - {name: PH5, server: 38.54.81.210, port: 24457, type: vmess, uuid: 0adb24ab-219a-4db1-c6e9-ef0c5c540152, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /24457, ws-headers: {Host: 38.54.81.210}}
+  - {name: 🇵🇭 f182.菲律宾 7.11, server: 38.54.37.4, port: 53685, type: vmess, uuid: 1c3374de-93d4-491e-a3a8-8b1bfd56e767, alterId: 0, cipher: auto, tls: false}
+  - {name: " 2", server: 38.54.87.65, port: 32323, type: vmess, uuid: 2ea349ef-cfce-4ec6-ecfa-063dc23da1e9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇭 f180菲律宾  7.11, server: 38.54.36.204, port: 16620, type: vmess, uuid: b1c0e7c8-26d6-4e12-c5db-ac0845f671ef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇭 f169菲律宾 7.2, server: 38.54.87.197, port: 53292, type: vmess, uuid: 1b2fef26-50cf-4a06-f2d8-a0aeef49ec1a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇭 f160 菲律宾 6..29, server: 38.54.81.232, port: 43033, type: vmess, uuid: d38bf21a-25f9-4f83-8b98-cc8fd00fb6f2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇭 菲律宾, server: 38.54.87.241, port: 44006, type: vmess, uuid: 812ea528-c01a-4c99-c489-cb70a2e21814, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇵🇭 菲律宾 2, server: cxj.lkmch.top, port: 47718, type: vmess, uuid: a00f456e-328f-4872-b6e7-072df3459628, alterId: 0, cipher: auto, tls: true}
+  - {name: 测试, server: 38.54.36.103, port: 22392, type: trojan, password: apj9GGBFBn}
+  - {name: manilazhh02, server: 38.54.80.39, port: 443, type: trojan, password: vd1pUU2Kfj}
+  - {name: " 3", server: 38.60.246.83, port: 54535, type: vmess, uuid: 26ccd43c-6f32-4e1f-c8b7-9233365ae7ab, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇭 f168菲律宾  7.2, server: 38.54.86.62, port: 22771, type: vmess, uuid: b97e1444-d956-460f-d236-abd50dbfaabc, alterId: 0, cipher: auto, tls: false}
+  - {name: manilazhh04, server: 38.60.245.106, port: 443, type: trojan, password: SL8Xq5J7Om}
+  - {name: manilazhh01, server: 38.54.81.141, port: 443, type: trojan, password: EUKEKffKZV}
+  - {name: 🇵🇭 L----菲律宾, server: aey.tpoc.top, port: 51179, type: vmess, uuid: c80afc07-071a-4b54-c48f-626a5c1530fb, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇵🇭 恒展---菲律宾视频, server: aey.tpoc.top, port: 10977, type: vmess, uuid: 95da6086-fa54-4053-d6ea-39aec40d6523, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇵🇭 f179菲律宾  7.9, server: 38.54.36.39, port: 10954, type: vmess, uuid: 80018a83-adaa-4c53-a118-36456df1e8d9, alterId: 0, cipher: auto, tls: false}
+  - {name: " 4", server: 38.54.80.196, port: 35483, type: vmess, uuid: 79013547-ce82-4221-c088-8d83db1e3c6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 38.54.80.196}}
+  - {name: 🇵🇭 f178菲律宾  7.7, server: 38.54.86.205, port: 47523, type: vmess, uuid: f47388e4-74a3-4445-868d-f37c2df72a68, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇭 f159菲律宾  6.29, server: 38.54.87.81, port: 27210, type: vmess, uuid: 05a8779b-58bb-4f97-ed8d-3feff6f838f6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇭 菲律宾 3, server: 38.54.80.163, port: 26924, type: vmess, uuid: ebee2f6e-a951-4317-ff7c-749c1b9c0ad1, alterId: 0, cipher: auto, tls: false}
+  - {name: manilazhh03, server: 38.60.245.34, port: 443, type: trojan, password: nTX5sLdAgl}
+  - {name: 🇵🇭 f177菲律宾 7.2, server: 38.54.86.21, port: 13235, type: vmess, uuid: 45e3f119-f329-429c-ad6e-710fb8801cc1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇭 f166菲律宾 7.2, server: 38.54.86.176, port: 11708, type: vmess, uuid: 288b73fc-98df-4e8e-dc3d-10b5466cc9dd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇲🇾 MY-马来西亚, server: mcocs.mcocs-my.top, port: 443, type: vmess, uuid: df43195b-2af1-46fa-b54f-45eaf1d1f407, alterId: 0, cipher: auto, tls: true}
+  - {name: vv09, server: 38.54.112.181, port: 80, type: vmess, uuid: dfe0352e-630b-40fb-8b79-5637f67d2430, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 38.54.112.181}}
+  - {name: Miki吉隆坡20230331, server: miki.inerwisa.xyz, port: 36514, type: vmess, uuid: 32c23298-4c00-40e0-977d-2ae14c64abff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /dsadsah2321312e46ad4assadsadas, ws-headers: {Host: miki.inerwisa.xyz}}
+  - {name: malaixiya01, server: 38.54.97.6, port: 443, type: trojan, password: D10iPGVTAD}
+  - {name: MY-TK, server: 38.60.194.167, port: 443, type: vmess, uuid: 9511e115-df1a-4b18-d42b-3daa44ee7fa7, alterId: 0, cipher: auto, tls: true}
+  - {name: my-douyin, server: 38.60.194.167, port: 48988, type: vmess, uuid: d04369bd-c0d8-4b80-e978-e66e63096124, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇲🇾 马来西亚陈, server: lmm.lkmch.top, port: 24032, type: vmess, uuid: deda2dec-cb2a-4904-9fd3-70b57e461be0, alterId: 0, cipher: auto, tls: true}
+  - {name: 菠萝--马来, server: mla.gouyty.top, port: 17353, type: vmess, uuid: ac83b779-f778-420f-8b3b-1c84274e4c97, alterId: 0, cipher: auto, tls: true}
+  - {name: 38.54.96.233:11925, server: 38.54.96.233, port: 11925, type: trojan, password: 81Eu8p8vOq}
+  - {name: " 5", server: 38.54.96.233, port: 19010, type: vmess, uuid: eb58dca0-ae29-4710-94b9-9f3255227d48, alterId: 0, cipher: auto, tls: false}
+  - {name: 马来, server: 38.54.96.233, port: 36696, type: vmess, uuid: e010ea51-75bc-48f8-9527-da00bc10583b, alterId: 0, cipher: auto, tls: false}
+  - {name: 嘉辰---马来视频, server: jku.sahjf12.life, port: 443, type: vmess, uuid: 26cc0e4f-02bc-43cc-ed50-98f3e09fb4dd, alterId: 0, cipher: auto, tls: true}
+  - {name: 星宇----马来, server: jku.sahjf12.life, port: 46910, type: vmess, uuid: d9445710-2358-4353-e6df-dfd9c22ea72f, alterId: 0, cipher: auto, tls: true}
+  - {name: 林可乐---马来, server: cvb.gouyty.top, port: 443, type: vmess, uuid: c6acc2ab-829f-48cc-bbca-f41947f4e177, alterId: 0, cipher: auto, tls: true}
+  - {name: 马来视频---gotou, server: cvb.gouyty.top, port: 50887, type: vmess, uuid: ef037720-121c-4156-a6e3-fae23a4fadf2, alterId: 0, cipher: auto, tls: true}
+  - {name: 38.60.195.226:21373, server: 38.60.195.226, port: 21373, type: trojan, password: UFhJxYkdZp}
+  - {name: " 6", server: 38.60.195.226, port: 28138, type: vmess, uuid: affe1a9f-5674-4706-f904-6948ef796321, alterId: 0, cipher: auto, tls: false}
+  - {name: mlxyzhh01, server: 38.54.96.216, port: 443, type: trojan, password: NnlvxEfFij}
+  - {name: 🇲🇾 马来西亚01, server: www.memoriespet.com, port: 30821, type: vmess, uuid: 4d0f69f2-1d80-42bd-eff7-86e7f263d7fd, alterId: 0, cipher: auto, tls: true}
+  - {name: " 7", server: www.lkmch.top, port: 55228, type: vmess, uuid: fa378b25-0586-4305-d841-1e881f491b4c, alterId: 0, cipher: auto, tls: true}
+  - {name: m37马来6.12, server: 38.60.195.111, port: 41188, type: vmess, uuid: 5373a65b-1ef0-4735-e4c9-db99755c5724, alterId: 0, cipher: auto, tls: false}
+  - {name: m34 马来 5.26, server: 38.60.194.29, port: 51101, type: vmess, uuid: 7622e3b7-dd8d-4085-9cfd-2988d3fb5d14, alterId: 0, cipher: auto, tls: false}
+  - {name: m35马来6.2, server: 38.60.192.185, port: 39661, type: vmess, uuid: 33f7e994-0836-4f31-978e-ff398604b422, alterId: 0, cipher: auto, tls: false}
+  - {name: my-tiktok, server: zhi.mcocs.top, port: 443, type: vmess, uuid: bc252037-7d08-452a-926d-879df3f2dcd3, alterId: 0, cipher: auto, tls: true}
+  - {name: MY-tk, server: zhi.mcocs.top, port: 21194, type: vmess, uuid: 9a8a90c1-8dca-42e1-c377-bf5e3587fd83, alterId: 0, cipher: auto, tls: true}
+  - {name: taiguo2, server: 38.54.32.183, port: 5443, type: vmess, uuid: 2bec323a-d9d8-417d-cc96-e82eb6b9dac1, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /2bec323a-d9d8-417d-cc96-e82eb6b9dac1, ws-headers: {Host: 38.54.32.183}}
+  - {name: 🇹🇷 土耳其 0531, server: 38.60.208.87, port: 443, type: vmess, uuid: 82d05e33-00d4-4bfa-ccdb-1bfcc9ad66da, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /82d05e33-00d4-4bfa-ccdb-1bfcc9ad66da, ws-headers: {Host: 38.60.208.87}}
+  - {name: 🇻🇳 越南陈, server: mk.lkmch.top, port: 23624, type: vmess, uuid: ed211766-5208-46d9-d2f4-885dab2b0ac0, alterId: 0, cipher: auto, tls: true}
+  - {name: NG003, server: 165.154.11.70, port: 47591, type: vmess, uuid: 3551ba42-7f58-42ff-aee5-70d6567a72f5, alterId: 0, cipher: auto, tls: false}
+  - {name: 1 2, server: 13.239.24.51, port: 37869, type: vmess, uuid: 4c90d167-e65b-4419-d455-eb635724d2ed, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国, server: 3.38.178.191, port: 80, type: vmess, uuid: fd7215b4-898b-4e79-c699-ebec90cce3a0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.38.178.191}}
+  - {name: "IREG[Ar-AMT]1-zh0bfpmw", server: 178.128.241.179, port: 80, type: vmess, uuid: 554983b7-78aa-4c06-bd00-b9d49ae4f0fb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇻🇳 Vietnam, server: 165.154.137.48, port: 50449, type: vmess, uuid: 5c3137a1-ef30-48ca-b661-18828b9f450b, alterId: 0, cipher: auto, tls: false}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: 📲 TELEGRAM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: 📹 YOUTUBE
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: 🎥 NETFLIX
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+  - name: 🎥 DISNEY
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇯🇵 jp01
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+  - name: 📺 NICONICO
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+  - name: 📺 爱奇艺
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+  - name: 🌏 国内视频
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+  - name: 🌍 海外视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: 📢 谷歌服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: Ⓜ️ ONEDRIVE
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: 🎮 海外游戏
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: 🎶 网易云音乐
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: 📈 GITHUB
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: 📖 学术网站
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🛡️ 隐私防护
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ""
+      - fun2
+      - VMESSNEW
+      - MobileNew
+      - 🇯🇵 jp01
+      - 1
+      - tt
+      - y-vmess
+      - 🇸🇬 singapore vmess
+      - 🇸🇬 新加坡2
+      - 🇯🇵 xjp-01
+      - 🇸🇬 新加坡v3
+      - 🇸🇬 新加坡22v
+      - 🇵🇭 青---菲律宾
+      - 🇵🇭 f175菲律宾  7.2
+      - 🇵🇭 f142菲律宾  6.11
+      - PH5
+      - 🇵🇭 f182.菲律宾 7.11
+      - " 2"
+      - 🇵🇭 f180菲律宾  7.11
+      - 🇵🇭 f169菲律宾 7.2
+      - 🇵🇭 f160 菲律宾 6..29
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 测试
+      - manilazhh02
+      - " 3"
+      - 🇵🇭 f168菲律宾  7.2
+      - manilazhh04
+      - manilazhh01
+      - 🇵🇭 L----菲律宾
+      - 🇵🇭 恒展---菲律宾视频
+      - 🇵🇭 f179菲律宾  7.9
+      - " 4"
+      - 🇵🇭 f178菲律宾  7.7
+      - 🇵🇭 f159菲律宾  6.29
+      - 🇵🇭 菲律宾 3
+      - manilazhh03
+      - 🇵🇭 f177菲律宾 7.2
+      - 🇵🇭 f166菲律宾 7.2
+      - 🇲🇾 MY-马来西亚
+      - vv09
+      - Miki吉隆坡20230331
+      - malaixiya01
+      - MY-TK
+      - my-douyin
+      - 🇲🇾 马来西亚陈
+      - 菠萝--马来
+      - 38.54.96.233:11925
+      - " 5"
+      - 马来
+      - 嘉辰---马来视频
+      - 星宇----马来
+      - 林可乐---马来
+      - 马来视频---gotou
+      - 38.60.195.226:21373
+      - " 6"
+      - mlxyzhh01
+      - 🇲🇾 马来西亚01
+      - " 7"
+      - m37马来6.12
+      - m34 马来 5.26
+      - m35马来6.2
+      - my-tiktok
+      - MY-tk
+      - taiguo2
+      - 🇹🇷 土耳其 0531
+      - 🇻🇳 越南陈
+      - NG003
+      - 1 2
+      - 🇰🇷 韩国
+      - IREG[Ar-AMT]1-zh0bfpmw
+      - 🇻🇳 Vietnam
+rules:
+ - DOMAIN-SUFFIX,services.googleapis.cn,📢 谷歌服务
+ - GEOIP,CN,🎯 全球直连
+ - MATCH,🐟 漏网之鱼
