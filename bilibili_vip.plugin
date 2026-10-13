@@ -1,0 +1,13 @@
+#!name = 哔哩哔哩 VIP 解锁与装扮
+#!desc = 哔哩哔哩个人中心大会员标识点亮与画质解锁（移植自 Surge 模块）
+#!author = @ddgksf2013
+#!homepage = https://ddgksf2013.top
+#!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bilibili.png
+#!date = 2026-10-13
+[Script]
+# 1. 播放流拦截与云端网关代理解析（必须开启 binary-body-mode 以支持 gRPC 二进制流）
+http-request ^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.playerunite\.v1\.Player\/PlayViewUnite script-path=https://ddgksf2013.top/scripts/bilibili.vip.js, requires-body=true, binary-body-mode=true, timeout=60, tag=bilibili_vip_stream
+# 2. 个人中心 VIP 视觉修改（点亮粉色大会员身份）
+http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/ script-path=https://ddgksf2013.top/scripts/bili_myinfo_vip.js, requires-body=true, timeout=60, tag=bilibili_vip_myinfo
+[Mitm]
+hostname = grpc.biliapi.net, app.bilibili.com
