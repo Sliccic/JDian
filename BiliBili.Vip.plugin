@@ -1,0 +1,42 @@
+#!name=哔哩哔哩会员
+#!desc=自动采集设备指纹 + 本地替换鉴权头获取会员画质 + 凭据自动续期。不经过任何第三方服务器
+#!author=Sliccic
+#!homepage=https://github.com/Sliccic/JDian
+#!icon=https://i0.hdslb.com/bfs/face/member/noface.jpg
+
+# ───────────────── 配置项（导入后在 Loon 插件设置里填写）─────────────────
+
+# 会员账号 UID（纯数字）。只有这个账号的登录会被采纳，登录其他账号不会覆盖凭据。
+# 留空则锁定"第一个捕获到的账号"，容易抓错，建议填写。
+#!input = targetMid
+
+# 身份模式。
+#   覆盖为会员：请求里的 x-bili-mid 与 access_key 保持一致（风控画像更干净）
+#   保持原号  ：保留你登录账号的 mid（兼容旧方案验证过的行为）
+#!select = keepMid,身份模式,覆盖为会员,保持原号
+
+# 续期使用的客户端身份。必须与会员账号登录时使用的客户端一致，
+# 因为 refresh_token 与 App 的 appkey 绑定。
+#!select = platform,续期身份,iPhone,Android
+
+# 通知方式。静默只会保留"失败 / 已忽略"这类需要你处理的通知。
+#!select = silent,通知方式,正常通知,静默
+
+# ───────────────── 以下无需修改 ─────────────────
+
+[Script]
+# ① 主规则：覆盖 app.bilibili.com / grpc.biliapi.net 的全部请求
+#    所有请求只做"采集设备指纹"，仅播放类接口才替换鉴权头，其余原样放行
+http-request ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/ script-path=https://raw.githubusercontent.com/Sliccic/JDian/refs/heads/main/bilivip.js, requires-body=false, timeout=10, tag=B站主规则
+
+# ② REST 播放接口（api.bilibili.com 域）
+http-request ^https?:\/\/api\.bilibili\.com\/x\/player\/(wbi\/)?playurl script-path=https://raw.githubusercontent.com/Sliccic/JDian/refs/heads/main/bilivip.js, requires-body=false, timeout=10, tag=B站REST播放
+
+# ③ 捕获：会员账号登录/刷新时自动存凭据（只有 targetMid 匹配才生效）
+http-response ^https?:\/\/passport\.bilibili\.com\/(x\/passport-login|api\/v2)\/oauth2\/(login|refresh_token|refresh) script-path=https://raw.githubusercontent.com/Sliccic/JDian/refs/heads/main/bilivip.js, requires-body=true, timeout=15, tag=B站凭据捕获
+
+# ④ 续期：每天 04:00 用 refresh_token 换新 access_key + SESSDATA
+cron "0 4 * * *" script-path=https://raw.githubusercontent.com/Sliccic/JDian/refs/heads/main/bilivip.js, timeout=60, tag=B站凭据续期
+
+[MITM]
+hostname = app.bilibili.com, grpc.biliapi.net, api.bilibili.com, passport.bilibili.com
